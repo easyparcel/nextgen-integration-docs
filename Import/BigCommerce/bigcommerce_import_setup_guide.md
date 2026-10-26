@@ -25,7 +25,9 @@ This guide will walk you through integrating NextGen EasyParcel with BigCommerce
 
 **Step 5:** Key in your "API Path" and "Access Token" (and the "Storefront channel ID" if your store has more than one storefront), then click on the "Submit" button.
 
-<img  alt="Screenshot 2026-10-22 at 1 43 16 PM" src="https://github.com/user-attachments/assets/5b1fc2ac-6962-43ad-be71-8c29113665a3" />
+
+<img  alt="Screenshot 2026-10-26 at 10 21 52 AM" src="https://github.com/user-attachments/assets/c926cec6-06cb-47a5-950d-1661b13556ba" />
+
 
 EasyParcel asks for two values, plus one optional value if your store has more than one storefront. You create the two values in your BigCommerce control panel by adding a **store-level API account**. Nothing needs to be installed on your store.
 
@@ -42,10 +44,16 @@ EasyParcel asks for two values, plus one optional value if your store has more t
 
      <img alt="Screenshot 2026-10-21 at 11 00 27 AM" src="https://github.com/user-attachments/assets/d2ba6226-c55a-4da6-9d76-cc4f7d05b428" />
 
-  3. Under **OAuth scopes**, set only these three and leave everything else as **None**:
+  3. Under **OAuth scopes**, set these three, which are required:
      - **Orders**: modify
      - **Products**: read-only
      - **Information & settings**: read-only
+
+     **Optional, only if your store has more than one storefront:** also set these two:
+     - **Sites & routes**: read-only. EasyParcel shows each storefront by its website address, for example `shop-au.example.com`.
+     - **Channel settings**: read-only. EasyParcel shows each storefront by its name, for example `Australia store`.
+
+     They only help you pick the right storefront when you connect (see step 5). Without them, EasyParcel lists the storefronts found on your recent orders, and only your default storefront is shown by its website address. Leave every other scope as **None**.
 
      This lets EasyParcel read your orders and products, and add the tracking number to your order when you ship it. It cannot change your products, customers or store settings.
 
@@ -63,27 +71,35 @@ EasyParcel asks for two values, plus one optional value if your store has more t
 
   5. There, you may go back to the EasyParcel portal and fill in the **API Path** and **Access Token**. Paste the API Path exactly as BigCommerce shows it. It looks like `https://api.bigcommerce.com/stores/abc123/v3/`.
 
-     **Storefront channel ID (optional).** Only fill this in if your BigCommerce store has **more than one storefront** and you want EasyParcel to import orders from just one of them. Leave it blank to import orders from every storefront.
+     Once both are filled in, EasyParcel loads your storefronts into the **Storefront** list. Choose:
 
-     - Your default storefront is always **1**.
-     - For another storefront, go to **Channel Manager** in your BigCommerce control panel and open that storefront. Its channel ID is the number after `/manage/channel/` in your browser's address bar. For example, `…/manage/channel/123456/overview` means the channel ID is **123456**.
+     - **All storefronts** if your store has only one storefront, or if you want orders from every storefront.
+     - **One storefront** if your store has more than one and only that storefront's orders should come to EasyParcel. Storefronts are listed by their website address where EasyParcel can read it, for example `shop-au.example.com — Australia store`.
+     <img alt="Screenshot 2026-10-26 at 10 07 01 AM" src="https://github.com/user-attachments/assets/42c6c0b2-2eff-445d-b213-beb4ab71f8e7" />
 
-       <img alt="Screenshot 2026-10-22 at 1 51 01 PM" src="https://github.com/user-attachments/assets/a5bfc21a-154e-452d-884b-d753af706dba" />
+
+     > 💡 **Storefront not in the list?** Choose **Other – enter a channel ID** and type its channel ID. To find it, go to **Channel Manager** in your BigCommerce control panel and open that storefront. The channel ID is the number after `/manage/channel/` in your browser's address bar. For example, `…/manage/channel/123456/overview` means **123456**.
+
+       <img  alt="Screenshot 2026-10-26 at 10 25 16 AM" src="https://github.com/user-attachments/assets/c3dd9f02-621a-4673-b0ae-688b434f67d5" />
+
 
      Then press **Submit**.
 
-     > ⚠️ Each storefront you connect needs its own **Store URL**, and the storefront **cannot be changed** after you connect. To import orders from another storefront later, add it as a new store with that storefront's own website address.
+     > ⚠️ Each storefront you connect needs its own **Store URL**, and the storefront **cannot be changed** after you connect. When you reconnect a store later, the list shows its storefront and keeps it. To import orders from another storefront, add it as a new store with that storefront's own website address.
 
      > ⚠️ If EasyParcel shows an error instead, it tells you what to check:
-     > - **"This API account is missing these permissions"**: the API account was saved without one of the three permissions above. Create a new API account with the right permissions and enter its values.
+     > - **"This API account is missing these permissions"**: the API account was saved without one of the three required permissions above. Create a new API account with the right permissions and enter its values.
      > - **"BigCommerce did not accept this Access Token"**: check that the API Path and Access Token come from the same API account, and that the account has not been deleted.
      > - **"That API Path does not look right"** or **"No BigCommerce store was found at this API Path"**: copy the API Path again, exactly as BigCommerce shows it.
      > - **"This API account belongs to a different BigCommerce store"**: you are reconnecting a store with an API account from another store. Create the API account in the store you are reconnecting.
-     > - **"The Storefront channel ID must be a whole number"**: enter only the number from the address bar, such as `123456`, or leave the field blank.
+     > - **The Storefront list says "Storefront list unavailable"**: the message under it explains why, usually the API Path or Access Token. Fix it and the list loads again. You can also type the channel ID, or leave it blank for all storefronts.
+     > - **"No storefront with channel ID … was found in this BigCommerce store"**: the channel ID you typed isn't in this store. Choose your storefront from the list, or check the number in its Channel Manager address.
+     > - **"The Storefront channel ID must be a whole number"**: when you choose **Other**, enter only the number, such as `123456`.
      > - **"This store is connected to storefront channel …, and that cannot be changed"**: this store already imports from one storefront. To import from a different storefront, add it as a new store with its own Store URL.
      > - **"Another BigCommerce store on your account already uses the Store URL …"**: two storefronts can't share a Store URL, or their orders would mix. Add this storefront again using its own website address.
 
      > ⚠️ Keep this API account in BigCommerce. If you delete it, your store is disconnected from EasyParcel and new orders stop coming in. To fix this, create a new API account and connect your store again with its values.
+
 
 
 
