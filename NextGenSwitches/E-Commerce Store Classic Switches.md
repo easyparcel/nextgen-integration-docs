@@ -4,7 +4,7 @@ To become back the Classic User, you will need to ensure that your API key versi
 ## Navigation Path
 #### Login to EasyParcel website -> EasyConnect -> Installed Ecommerce Apps -> Select your ecommerce store -> Open App
 
-<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/6ed5f937fac29052efef52b6c997de2b1d457be3/Pictures/General1.png" />
+<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/6ed5f937fac29052efef52b6c997de2b1d457be3/Pictures/General1.png" />
 
 ---
 ## Steps to Switch

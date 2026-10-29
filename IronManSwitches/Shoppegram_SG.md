@@ -3,7 +3,7 @@
 ## Navigation Path
 #### Login to EasyParcel website -> EasyConnect -> Installed Ecommerce Apps -> Shoppegram -> Open App
 
-<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/fd36405211dbbe43aa9693a68c2f1a8f43a941dd/Pictures/Shoppegram6.png" />
+<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/fd36405211dbbe43aa9693a68c2f1a8f43a941dd/Pictures/Shoppegram6.png" />
 
 ---
 
@@ -11,11 +11,11 @@
 1. Go to the **Switch** section.  
 2. Toggle the switch to **Next Gen**.  
 
-<img width="1280" height="778" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram5.png" />
+<img width="1280" height="778" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram5.png" />
 
 ### ✅ Done! You’ve now switched to **Next Gen**.  
 
-<img width="1280" height="772" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram4.png" />
+<img width="1280" height="772" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram4.png" />
 
 ---
 
@@ -26,7 +26,7 @@
 
 #### 2. From there, you can retrieve the **API key** for Shoppegram app integration.  
 
-<img width="1280" height="732" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram.png" />
+<img width="1280" height="732" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram.png" />
 
 ---
 
@@ -35,7 +35,7 @@ Follow the official guide here:
 
 🔗 [How to integrate EasyParcel with Shoppegram](https://github.com/easyparcel/nextgen-integration-docs/blob/main/plugin/Shoppegram.md)  
 
-<img width="1280" height="1033" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram9.png" />
+<img width="1280" height="1033" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/a0b817a898f9fa73e2812f00f71ca0652c09ee00/Pictures/Shoppegram9.png" />
 
 ---
 

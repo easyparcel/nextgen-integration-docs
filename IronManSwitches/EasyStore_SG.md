@@ -3,7 +3,7 @@
 ## Navigation Path
 #### Login to EasyParcel website -> EasyConnect -> Installed Ecommerce Apps -> Easy Store -> Open App
 
-<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/03c8702b964de529a950490fb6af4a81e54fe574/Pictures/EasyStore2.png" />
+<img width="1280" height="701" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/03c8702b964de529a950490fb6af4a81e54fe574/Pictures/EasyStore2.png" />
 
 ---
 
@@ -11,11 +11,11 @@
 1. Go to the **Switch** section.  
 2. Toggle the switch to **Next Gen**.  
 
-<img width="1280" height="778" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/92fc065d9394f98e3ef2a0b569787e426d5b1ef6/Pictures/EasyStore3.png" />
+<img width="1280" height="778" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/92fc065d9394f98e3ef2a0b569787e426d5b1ef6/Pictures/EasyStore3.png" />
 
 ### ✅ Done! You’ve now switched to **Next Gen**.  
 
-<img width="1280" height="772" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/eed95477142c593c82c9d0f4852a3f92255e5240/Pictures/EasyStore4.png" />
+<img width="1280" height="772" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/eed95477142c593c82c9d0f4852a3f92255e5240/Pictures/EasyStore4.png" />
 
 ---
 
@@ -26,7 +26,7 @@
 
 #### 2. From there, you can retrieve the **API key** for Easy Store app integration.  
 
-<img width="1280" height="732" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/f90a01c6bda1517c6dfcd5d462c0ca6bb344c561/Pictures/EasyStore5.png" />
+<img width="1280" height="732" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/f90a01c6bda1517c6dfcd5d462c0ca6bb344c561/Pictures/EasyStore5.png" />
 
 ---
 
@@ -35,7 +35,7 @@ Follow the official guide here:
 
 🔗 [How to integrate EasyParcel with Easy Store](https://github.com/easyparcel/nextgen-integration-docs/blob/04074745a8c45a59092af3d7a43167f19b8d6c87/plugin/EasyStore.md)  
 
-<img width="1280" height="1033" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/blob/f90a01c6bda1517c6dfcd5d462c0ca6bb344c561/Pictures/EasyStore6.png" />
+<img width="1280" height="1033" alt="image" src="https://github.com/easyparcel/nextgen-integration-docs/raw/f90a01c6bda1517c6dfcd5d462c0ca6bb344c561/Pictures/EasyStore6.png" />
 
 ---
 
