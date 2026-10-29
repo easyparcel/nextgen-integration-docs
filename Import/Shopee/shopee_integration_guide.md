@@ -95,8 +95,8 @@ Shopee’s platform has conditions for allowing Non‑SSL logistics:
 You've successfully set up EasyParcel Shopee integration using the Import Version! You will now can fulfill orders after importing to EasyParcel NextGen website.
 
 📝 To fulfill your Shopee Orders, you may click and refer below for steps:
- 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/1661ca63a640a0e44ad28c9123556d55c70aee9a/Import/Shopee/shopee_fulfilment.md)
- 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/1661ca63a640a0e44ad28c9123556d55c70aee9a/Import/Shopee/Shopee_Bulkfulfilmet.md)
+ 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/1661ca63a640a0e44ad28c9123556d55c70aee9a/Import/Shopee/shopee_fulfilment.md)
+ 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/1661ca63a640a0e44ad28c9123556d55c70aee9a/Import/Shopee/Shopee_Bulkfulfilmet.md)
 
 
 

@@ -3,7 +3,7 @@
 #### Step 1: Login to your EasyParcel account.
 
 #### Step 2: Click 'EasyConnect'.
-![EasyParcel Orderla Step 2](https://github.com/easyparcel/nextgen-integration-doc/raw/main/Pictures/step1.png)
+![EasyParcel Orderla Step 2](https://github.com/easyparcel/nextgen-integration-docs/raw/main/Pictures/step1.png)
 
 #### Step 3: Click 'Add Ecommerce App'. Find the 'Orderla.my'. After that, click 'Install App'.
 <img width="1280" height="710" alt="orderla1" src="https://github.com/user-attachments/assets/7bf40be5-dbd0-4784-8462-8aa1569b91f5" />

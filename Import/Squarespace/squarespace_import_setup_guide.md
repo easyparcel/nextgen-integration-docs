@@ -46,4 +46,4 @@ This guide will walk you through integrating NextGen EasyParcel with Squarespace
 
 **Done ! You have successfully setup Squarespace app in easyparcel.**
 
-Visit [Fulfillment steps](https://easyparcel.github.io/nextgen-integration-doc/Import/Squarespace/squarespace_import_fulfilment) guide to start the fulfillment process.
+Visit [Fulfillment steps](https://easyparcel.github.io/nextgen-integration-docs/Import/Squarespace/squarespace_import_fulfilment) guide to start the fulfillment process.

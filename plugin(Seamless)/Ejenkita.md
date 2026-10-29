@@ -3,7 +3,7 @@
 #### Step 1: Login to your EasyParcel account.
 
 #### Step 2: Click 'EasyConnect'.
-![EasyParcel EasyStore Step 2](https://github.com/easyparcel/nextgen-integration-doc/raw/main/Pictures/step1.png)
+![EasyParcel EasyStore Step 2](https://github.com/easyparcel/nextgen-integration-docs/raw/main/Pictures/step1.png)
 
 #### Step 3: Click 'Add Ecommerce App'. Find the 'Ejenkita'. After that, click 'Install App'.
 <img width="1280" height="708" alt="ejen1" src="https://github.com/user-attachments/assets/57c9fbcf-f167-459f-8b1c-1ac7f5e335d0" />

@@ -36,6 +36,6 @@
 
 
 📝 To fulfill your ZenCart Orders, you may click and refer below for steps:
- 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/52b4d0d5686adfcb3c8175eb02354da1186c4e7b/Import/ZenCart/Single%20Fulfillment%20steps.md)
- 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/52b4d0d5686adfcb3c8175eb02354da1186c4e7b/Import/ZenCart/Bulk%20Fulfillment.md)
+ 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/52b4d0d5686adfcb3c8175eb02354da1186c4e7b/Import/ZenCart/Single%20Fulfillment%20steps.md)
+ 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/52b4d0d5686adfcb3c8175eb02354da1186c4e7b/Import/ZenCart/Bulk%20Fulfillment.md)
    

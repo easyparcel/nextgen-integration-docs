@@ -3,7 +3,7 @@
 #### Step 1: Login to your EasyParcel account.
 
 #### Step 2: Click **EasyConnect**.
-![EasyParcel 91App Step 1](https://github.com/easyparcel/nextgen-integration-doc/raw/main/Pictures/step1.png)
+![EasyParcel 91App Step 1](https://github.com/easyparcel/nextgen-integration-docs/raw/main/Pictures/step1.png)
 
 #### Step 3: Click **Add Ecommerce App**. Search for **Unicart**, then click **Install App**.
 <img width="1280" height="709" alt="unicart1" src="https://github.com/user-attachments/assets/680ee916-bfa3-4264-80ea-5733e8d22ced" />

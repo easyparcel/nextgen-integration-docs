@@ -3,7 +3,7 @@
 #### Step 1: Login to your EasyParcel account.
 
 #### Step 2: Click 'EasyConnect'.
-![EasyParcel EasyStore Step 1](https://github.com/easyparcel/nextgen-integration-doc/raw/main/Pictures/step1.png)
+![EasyParcel EasyStore Step 1](https://github.com/easyparcel/nextgen-integration-docs/raw/main/Pictures/step1.png)
 
 #### Step 3: Click 'Add Ecommerce App'. Find the 'Kuasa'. After that, click 'Install App'.
 <img width="1280" height="703" alt="kuasa1" src="https://github.com/user-attachments/assets/d5b38142-569d-4345-a8ab-6ffd377c2d58" />

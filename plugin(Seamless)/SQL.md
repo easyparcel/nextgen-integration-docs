@@ -3,7 +3,7 @@
 #### Step 1: Login to your EasyParcel account.
 
 #### Step 2: Click 'EasyConnect'.
-![EasyParcel SQL Step 1](https://github.com/easyparcel/nextgen-integration-doc/raw/main/Pictures/step1.png)
+![EasyParcel SQL Step 1](https://github.com/easyparcel/nextgen-integration-docs/raw/main/Pictures/step1.png)
 
 #### Step 3: Click 'Add Ecommerce App'. Find the 'EasyStore'. After that, click 'Install App'.
 <img width="1280" height="711" alt="sql1" src="https://github.com/user-attachments/assets/f24c6109-de2c-463a-b2cd-887db97f2cf2" />

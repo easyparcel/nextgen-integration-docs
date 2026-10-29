@@ -49,5 +49,5 @@ This guide will walk you through integrating NextGen EasyParcel with AllValue. W
 
 ---
 📝 To fulfill your AllValue Orders, you may click and refer below for steps:
- 1. [Single Fulfillment](https://easyparcel.github.io/nextgen-integration-doc/Import/AllValue/allvalue_import_fulfillment)
+ 1. [Single Fulfillment](https://easyparcel.github.io/nextgen-integration-docs/Import/AllValue/allvalue_import_fulfillment)
    

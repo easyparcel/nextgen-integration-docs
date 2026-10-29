@@ -55,6 +55,6 @@ We welcome contributions to improve this documentation!
 **Ready to get started?** 🚀
 
 Choose your path:
-- [🔌 Setup Plugin Version Integration](https://github.com/easyparcel/nextgen-integration-doc/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/plugin(Seamless))
-- [🏪 Setup Import Version Integration](https://github.com/easyparcel/nextgen-integration-doc/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/Import)  
-- [🔄 Migrate Your E-Commerce Store from Classic to NextGen](https://github.com/easyparcel/nextgen-integration-doc/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/NextGenSwitches)
+- [🔌 Setup Plugin Version Integration](https://github.com/easyparcel/nextgen-integration-docs/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/plugin(Seamless))
+- [🏪 Setup Import Version Integration](https://github.com/easyparcel/nextgen-integration-docs/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/Import)  
+- [🔄 Migrate Your E-Commerce Store from Classic to NextGen](https://github.com/easyparcel/nextgen-integration-docs/tree/a6da87c901f72776d75b5702fb4b785c2c6478ff/NextGenSwitches)

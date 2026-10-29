@@ -123,6 +123,6 @@ EasyParcel asks for two values, plus one optional value if your store has more t
 ## Conclusion
 **Done ! You have successfully setup BigCommerce app in easyparcel.** You will now can fulfill orders after importing to EasyParcel NextGen website.
 
-You may proceed to checkout our [BigCommerce Import Fulfilment Steps](https://github.com/easyparcel/nextgen-integration-doc/blob/4f13a577cbe63107150a67d256d3b532487c73d4/Import/BigCommerce/bigcommerce_import_fulfilment.md)
+You may proceed to checkout our [BigCommerce Import Fulfilment Steps](https://github.com/easyparcel/nextgen-integration-docs/blob/4f13a577cbe63107150a67d256d3b532487c73d4/Import/BigCommerce/bigcommerce_import_fulfilment.md)
 
 

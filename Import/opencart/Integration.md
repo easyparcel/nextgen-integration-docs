@@ -34,8 +34,8 @@
 
 
 📝 To fulfill your OpenCart Orders, you may click and refer below for steps:
- 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/b292b79affb642a3f56a20e08665550086bd420e/Import/opencart/Single%20Fulfillment%20steps.md)
- 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-doc/blob/b292b79affb642a3f56a20e08665550086bd420e/Import/opencart/Bulk%20Fulfillment.md)   
+ 1. [Single Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/b292b79affb642a3f56a20e08665550086bd420e/Import/opencart/Single%20Fulfillment%20steps.md)
+ 2. [Bulk Fulfillment](https://github.com/easyparcel/nextgen-integration-docs/blob/b292b79affb642a3f56a20e08665550086bd420e/Import/opencart/Bulk%20Fulfillment.md)   
 
 
 

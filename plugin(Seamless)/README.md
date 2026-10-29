@@ -7,4 +7,4 @@ The seamless version integrates directly with your own E-Commerce store, allowin
 ---
 
 **To understand More Detail about NextGen version you may refer to this documentation** 
-([NextGen Documentation](https://github.com/easyparcel/nextgen-integration-doc/blob/4dab0ffd64da2debfd658fd4655686108079e22b/README.md))
+([NextGen Documentation](https://github.com/easyparcel/nextgen-integration-docs/blob/4dab0ffd64da2debfd658fd4655686108079e22b/README.md))
