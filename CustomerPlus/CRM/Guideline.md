@@ -487,7 +487,7 @@ Click **Next**.
 ### Step 4: Confirm
 
 1. Optionally, **Tag everyone in this import**, for example `Bazaar Oct 2026`, so you can find them later.
-2. Tick **Also save to Address Book** if you want new customers with a complete address saved as receivers. It is off for imports.
+2. Tick **Also save to Address Book** if you want new customers with a complete address saved as receivers. It starts unticked.
 3. Tick **I confirm I'm allowed to use the data in this file**.
 4. Click **Import … Customers**.
 
