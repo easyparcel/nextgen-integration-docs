@@ -468,8 +468,8 @@ You have the **Viewer** role. Ask your organization's owner or an admin to make 
 **Connect says my key is wrong.**
 Check all three values: the **Key ID**, the **API key** and the **Account book ID**. A wrong account book is refused exactly like a wrong key. If all three are right, create a new API key under **Settings → API Keys** and enter it again.
 
-**Documents show "Failed" and the reason mentions permission or 403.**
-The key is missing one of the permissions in Part 1, Step 3. In AutoCount Cloud, open **Settings → API Keys**, click the edit icon on the key, tick the missing permissions and click **Save**. Then click **Try again** on the failed documents.
+**Documents show "Failed": "AutoCount refused this API key the permission …".**
+The reason names the permission the key is missing, for example `Creditor.CreateRecord`. In AutoCount Cloud, open **Settings → API Keys**, click the edit icon on the key, tick that permission (here **Creditor › CreateRecord**) and click **Save**. Then click **Try again** on the failed documents. If it's already ticked, your AutoCount plan may not include it.
 
 **A payout says AutoCount refused to let the key create a creditor.**
 The key is missing **Creditor `CreateRecord`**, which EasyParcel needs to create a supplier for the platform's fees, for example *Shopee - Marketplace Fees (MYR)*. Tick it on the key, or create a creditor with exactly that name in that currency yourself. Then click **Try again** on the payout.

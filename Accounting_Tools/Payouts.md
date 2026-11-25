@@ -49,7 +49,7 @@ Then choose the payout accounts. Open the connection's **Settings → Choose you
 
 You can leave these for later. If a payout needs an account you haven't chosen, the check tells you which one, with a link to **Settings**.
 
-> **The platform as a supplier.** The fees post as a bill from the platform. The first time a platform's fees post, EasyParcel creates a supplier for it in your book, for example *Shopee - Marketplace Fees (MYR)*. On AutoCount Cloud, your API key needs the **Creditor `CreateRecord`** permission for this.
+> **The platform as a supplier.** The fees post as a bill from the platform. The first time a platform's fees post, EasyParcel creates a supplier for it in your book, for example *Shopee - Marketplace Fees (MYR)*. On AutoCount Cloud, your API key needs the **Creditor `CreateRecord`** permission for this. If you made your key before 25 November 2026, add it now: in AutoCount Cloud open **Settings → API Keys**, click the edit icon on the key, tick **Creditor › CreateRecord** and click **Save**.
 
 ---
 
@@ -321,7 +321,10 @@ Each shop has its own customer account. Pick the shop the file is from, or uploa
 The file is from a different platform from the customer account you picked. Pick that platform's customer account.
 
 **"This file is missing columns we need."**
-Download the file again from your platform, without changing it, or use our CSV template.
+Download the file again from your platform, without changing it, or use our CSV template. If your Seller Center is set to another language, switch it to English, then download the file again.
+
+**"This is Lazada's My Balance export", "This is Lazada's Order Overview" or "This is Shopify's payouts summary".**
+That's another download from the same platform. Download the file the message names: see [Which file to download from your platform](#which-file-to-download-from-your-platform).
 
 **"The order number was changed by Excel."**
 Excel turns long order numbers into numbers like `5.8E+17`. Download the file again and upload it without opening it in Excel.
