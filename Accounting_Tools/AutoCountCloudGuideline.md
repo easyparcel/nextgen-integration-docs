@@ -97,7 +97,7 @@ Untick **All Permissions**. Then expand each group under **Permissions** and tic
 
 > **Why not All Permissions?** EasyParcel never deletes, edits or voids anything in your book. Giving the key only what it needs keeps your book safe if the key is ever shared by mistake.
 
-![Permissions, then Save](images/autocount-cloud/ac-03-api-key-permissions.png)
+![All Permissions unticked, the permissions EasyParcel needs ticked, then Save](images/autocount-cloud/ac-03-api-key-permissions.png)
 
 ### Step 4: Copy the Key ID, API Key and Account Book Id
 
