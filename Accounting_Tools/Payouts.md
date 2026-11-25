@@ -99,10 +99,10 @@ Below them:
 
 | Platform | Where to download it |
 |---|---|
-| **Shopee** | **My Income › Income Details › Released › Export** (an .xlsx file) |
-| **Lazada** | **Finance › Account Statement › Export** (a .csv or .xlsx file) |
-| **TikTok Shop** | **Finance › Transactions › Settled › Export** (an .xlsx file) |
-| **Shopify Payments** | **Finance › Payouts › Export payout transactions** (a .csv file) |
+| **Shopee** | **Finance › My Income › Income Details › Released** tab. Pick the dates and click **Export** (on some screens **Download**). Then open the report list beside it and click **Download** (an .xlsx file). |
+| **Lazada** | **Finance › My Income › Income Overview**. Under **Income Report**, pick the week or month (**More** for older ones), then **Download › Transactions Details** (excel or csv). Not the export on **My Balance**: that is your wallet history, not your sales. |
+| **TikTok Shop** | **Finance › Transactions** (on newer menus, **Finance › Withdrawals**) › **Settled** tab › **Export**. Pick up to 90 days, then download the .xlsx from the export history. |
+| **Shopify Payments** | **Finance › Payouts**. For one payout, click it, then the export icon › **Export payout transactions**. For several, click **View transactions › Export › Items by date** and choose a CSV file. Shopify emails you the file; if it comes as a .zip, unzip it and upload the .csv inside. Not the **Export** button on the Payouts page itself: that file has one row per payout and no orders. |
 | **Shopify in Malaysia, and any other platform** | Put the payout into **our CSV template** |
 
 Upload the file **as you downloaded it**. Opening it in Excel and saving it again can change long order numbers, and the upload then refuses those rows.
@@ -128,7 +128,7 @@ Click **Upload payout file**.
 1. **Customer account**: pick the shop. **One shop per file.** EasyParcel checks the file is from this shop.
 2. **Payout file**: drop the file in, or click **Choose a file**. CSV and Excel files up to 10 MB.
 3. **Where was this money paid?**
-   - **Into my bank**: the platform paid straight into your bank account, as Lazada and Shopify usually do.
+   - **Into my bank**: the platform paid straight into your bank account, as Shopify does.
    - **Into my *platform* seller balance** (Shopee, Lazada and TikTok Shop only): the platform holds the money until you withdraw it. Record each withdrawal yourself, as bank in, seller balance out.
 4. **Date the money arrived**: the day the last of this money arrived. It is used when the file gives no date, as most Shopee, TikTok Shop and Lazada files don't. A date the file carries (Shopify, our CSV template) is used instead.
 5. Click **Check this payout**.
