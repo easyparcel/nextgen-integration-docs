@@ -129,11 +129,15 @@ Click **Upload payout file**.
 2. **Payout file**: drop the file in, or click **Choose a file**. CSV and Excel files up to 10 MB.
 3. **Where was this money paid?**
    - **Into my bank**: the platform paid straight into your bank account, as Shopify does.
-   - **Into my *platform* seller balance** (Shopee, Lazada and TikTok Shop only): the platform holds the money until you withdraw it. Record each withdrawal yourself, as bank in, seller balance out.
-4. **Date the money arrived**: the day the last of this money arrived. It is used when the file gives no date, as most Shopee, TikTok Shop and Lazada files don't. A date the file carries (Shopify, our CSV template) is used instead.
+   - **Into my *platform* seller balance** (Shopee, Lazada and TikTok Shop only): the platform holds the money until you withdraw it. Record each withdrawal yourself, as bank in, seller balance out. This is already picked for these three platforms.
+4. **Date the money arrived**: the day the last of this money arrived. It is used when the file gives no date, as Shopee, TikTok Shop and most Lazada files don't. A date the file carries (Shopify, our CSV template) is used instead. Shopify's date is the day Shopify **sent** the payout. It usually reaches your bank 1 to 3 business days later, so your bank statement shows it a little after the entry.
 5. Click **Check this payout**.
 
-EasyParcel reads the file and matches every line to the orders this connection sent. Nothing goes into your books yet. If the file holds several payouts, each one gets its own check.
+EasyParcel reads the file and matches every line to the orders this connection sent. Nothing goes into your books yet.
+
+- A Shopee, Lazada or TikTok Shop file is **one payout** for the dates you chose.
+- A Shopify file or our CSV template can hold **several payouts**, and each one gets its own check.
+- A payout in a currency your book doesn't keep is **left out**, and the check says so. Record it as you do today.
 
 ---
 
