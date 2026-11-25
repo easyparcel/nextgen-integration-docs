@@ -2,6 +2,8 @@
 
 Download your EasyParcel charges, refunds and top-ups as a file. Then import it into your accounting software, or hand it to your accountant. You don't need to connect anything first, and it works for both **Malaysia (MYR)** and **Singapore (SGD)** accounts. Where the two are different, this guide says so.
 
+The Accounting Tool belongs to your **organization** in EasyAccount. Your shipping account must be linked to your organization, and you need an Accounting role in it. See *Before you start: your organization* in the [SQL Account guide](SQLAccountGuideline.md#before-you-start-your-organization).
+
 You can download:
 
 - a **ready-to-import file** for **SQL Account**, **AutoCount Cloud Accounting** or **AutoCount 2.x (desktop)**, or
@@ -26,8 +28,8 @@ You can download:
 
 ## Step 1 — Open Export to a file
 
-1. In EasyParcel, click the **app menu** (the grid icon at the top right) and choose **Accounting**.
-2. On the **Integrations** page, find the **Export to a file** card. It is always on, so there is nothing to connect.
+1. In EasyParcel, open the **Products** menu (the grid icon) and choose **Accounting**.
+2. On the **Integrations** page, find the **Export to a file** card, near the bottom. It is always on, so there is nothing to connect.
 3. Click **Set up export**. After you've downloaded once, the button says **Download** instead.
 
 ![Export to a file card on the Integrations page](images/export/ex-01-export-tile.png)
@@ -39,6 +41,8 @@ The export window opens. The first time, it opens with **Export settings** expan
 ---
 
 ## Step 2 — Choose the period
+
+If more than one shipping account is linked to your organization, first pick one under **Which shipping account?** One file covers one shipping account.
 
 Under **Which period?**, pick a **From** and a **To** date.
 
@@ -73,6 +77,8 @@ Under **Which software?**, pick where the file will go.
 
 Click **Export settings** to open them. Whatever you fill in here is **kept for next time**, so you only do this once.
 
+Only your organization's owner and admins can change these settings. A **Viewer** can still download, using the settings already saved.
+
 ![Export settings](images/export/ex-04-export-settings.png)
 
 ### Codes from your accounting software (SQL Account and AutoCount only)
@@ -85,7 +91,7 @@ When you pick SQL Account or AutoCount, this box appears first. Each code must *
 |---|---|
 | **EasyParcel supplier code** | The supplier (creditor) you created for EasyParcel, for example `400-EP01`. Create **one per currency**: the document takes the supplier's own currency. |
 | **Unit of measure** *(SQL Account)* | Leave blank to use `UNIT`. |
-| **Credit term** | Must match a term in your software exactly. EasyParcel is prepaid, so `C.O.D.` usually fits. SQL Account won't accept a blank term. |
+| **Credit term** | Must match a term in your software exactly. EasyParcel is prepaid, so `C.O.D.` usually fits. SQL Account won't accept a blank term, and its term code holds at most 10 characters: enter the code, for example `C.O.D.` or `30 Days`. |
 | **Location** *(AutoCount)* | Your purchase and sales location. Use `HQ` if you only have one. |
 | **Tax code for an untaxed purchase** | The code your book uses for charges that carry no tax, such as duties paid on your behalf. SQL Account rejects a row with no tax code. Malaysia: never pick **PEC1–PEC5**, because those go into real SST-02 boxes. |
 | **Tax code for an untaxed sale** | The same, but for your own sales. Leave it blank if you don't export sales. |
@@ -234,6 +240,12 @@ The export only goes back 12 months. The earliest date you can pick is shown und
 
 **Do I need to connect SQL Account or AutoCount to use this?**
 No. The export works without any connection.
+
+**I have several shipping accounts.**
+Each file covers one shipping account. Pick it under **Which shipping account?**, download, then pick the next one.
+
+**The export settings are greyed out.**
+You have the **Viewer** role. You can download with the saved settings; ask your organization's owner or an admin to change them.
 
 **Are my settings saved?**
 Yes. Everything under **Export settings** is kept for next time. The period is not saved, so you choose it every time you download.
