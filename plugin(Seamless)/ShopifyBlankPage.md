@@ -17,7 +17,7 @@ If the EasyParcel - Delivery Made Easy app opens as a blank page in your Shopify
 #### Step 5: At the top right of the Network tab, tick the 'Disable cache' box.
 ![Tick Disable cache](images/shopify-blank-page/sb-05-disable-cache.png)
 
-#### Step 6: **Keep the developer tools panel open** and refresh the page. The app should now load.
+#### Step 6: **Keep the developer tools panel open** and refresh the page (click the browser's reload button, or press Ctrl + R / Cmd + R on a Mac). The app should now load.
 ![Refresh the page](images/shopify-blank-page/sb-06-refresh.png)
 
 **Note:** 'Disable cache' only works while the developer tools panel is open. Once the app loads, you can close the panel.
